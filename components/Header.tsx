@@ -19,14 +19,14 @@ export function Header() {
         >
           Docs
         </a>
-        <a
+        {/* <a
           href="https://demo.peaze.com"
           target="_blank"
           rel="noreferrer"
           className=" hover:text-accent"
         >
           Demo
-        </a>
+        </a> */}
       </div>
     </nav>
   );
