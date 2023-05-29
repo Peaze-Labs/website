@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="">
       <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-        <div className="flex flex-col-reverse space-x-0 md:space-x-8 md:flex-row">
+        <div className="flex flex-col-reverse space-x-0 md:space-x-12 md:flex-row">
           <div className="mt-8 md:mt-0">
             <Image src={Logo} alt="logo" width={124} />
             <p className="max-w-xs my-4 text-sm text-secondary">
@@ -119,7 +119,7 @@ export function Footer() {
               </a>
             </div> */}
           </div>
-          <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-12 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-3">
             <div>
               <p className="font-medium">Company</p>
               <nav className="flex flex-col mt-4 space-y-2 text-secondary">

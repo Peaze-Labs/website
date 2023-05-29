@@ -2,7 +2,8 @@ import Image from "next/image";
 import { Manrope } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import UserExperience from "../assets/user-experience.webp";
-import IntegrationBackground from "../assets/pattern.svg";
+import ExperienceBackground from "../assets/pattern1.svg";
+import IntegrationBackground from "../assets/pattern2.svg";
 import LogoRatio from "../assets/ratio.svg";
 import LogoPlaid from "../assets/plaid.png";
 import LogoWormhole from "../assets/wormhole.png";
@@ -74,16 +75,19 @@ export default function Home() {
             Learn more &gt;
           </a>
         </div>
-        <div className="flex-1">
-          <Image
-            src={UserExperience}
-            alt="User experience showcase"
-            width={627}
-          />
+        <div className="relative flex-1">
+          <Image src={ExperienceBackground} width={515} alt="background" />
+          <div className="absolute md:top-[56px] top-[20px] md:left-[18%]">
+            <Image
+              src={UserExperience}
+              alt="User experience showcase"
+              width={391}
+            />
+          </div>
         </div>
       </section>
       <section className="flex flex-col pt-6 space-x-0 space-y-6 md:space-x-6 md:space-y-0 md:flex-row-reverse">
-        <div className="flex flex-col space-y-6 basis-2/5">
+        <div className="flex flex-col space-y-6 basis-2/5 md:pt-[50px]">
           <h2 className="text-lg font-bold">Frictionless integration</h2>
           <p className="text-secondary">
             The Peaze SDK works alongside your app’s existing integrations like
@@ -94,7 +98,7 @@ export default function Home() {
           </a>
         </div>
         <div className="relative flex-1">
-          <Image src={IntegrationBackground} width={500} alt="background" />
+          <Image src={IntegrationBackground} width={600} alt="background" />
           <div className="absolute md:top-[40px] top-[20px]">
             <CodeBlock code={codeBlock2} />
             <CodeBlock code={codeBlock1} />
@@ -107,14 +111,14 @@ export default function Home() {
       </div>
       <section className="flex flex-col space-x-0 space-y-6 md:space-x-6 md:space-y-0 md:flex-row pt-9">
         <div className="md:px-9 px-6 md:pt-[56px] md:pb-[80px] pt-[20px] pb-[50px] rounded-xl feature-box text-white1">
-          <h2 className="mb-4 text-base font-bold md:text-lg">
+          <h2 className="mb-8 text-base font-bold md:text-lg">
             Fiat powered transactions
           </h2>
-          <p className="mb-[10px]">
+          <p className="mb-8 font-light">
             Automated on-ramping so users can transact without manually buying
             crypto and managing balances.
           </p>
-          <a className="font-semibold" href="#">
+          <a className="font-semibold hover:text-primary" href="#">
             Learn more &gt;
           </a>
 
@@ -127,14 +131,14 @@ export default function Home() {
           </div>
         </div>
         <div className="md:px-9 px-6 md:pt-[56px] md:pb-[80px] pt-[20px] pb-[50px] rounded-xl feature-box text-white1">
-          <h2 className="mb-4 text-base font-bold md:text-lg">
+          <h2 className="mb-8 text-base font-bold md:text-lg">
             Crypto powered transactions
           </h2>
-          <p className="mb-[10px]">
+          <p className="mb-8 font-light">
             Automated bridging and swapping allows users to transact on any
             chain with any token in one click.
           </p>
-          <a className="font-semibold" href="#">
+          <a className="font-semibold hover:text-primary" href="#">
             Learn more &gt;
           </a>
 

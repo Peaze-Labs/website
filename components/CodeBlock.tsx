@@ -7,7 +7,7 @@ interface Props {
 
 export function CodeBlock({ code }: Props) {
   return (
-    <div className="p-6 rounded bg-[#F8F8F8] mt-4">
+    <div className="p-6 rounded-lg bg-[#F8F8F8] mt-4">
       <Highlight theme={themes.vsLight} code={code} language="tsx">
         {({ className, style, tokens, getLineProps, getTokenProps }) => (
           <pre
