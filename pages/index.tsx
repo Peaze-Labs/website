@@ -77,17 +77,18 @@ export default function Home() {
         </div>
         <div className="relative flex-1">
           <Image src={ExperienceBackground} width={515} alt="background" />
-          <div className="absolute md:top-[56px] top-[20px] md:left-[18%]">
+          <div className="absolute md:top-[56px] top-[20px] md:left-[18%] md:w-auto w-full">
             <Image
               src={UserExperience}
               alt="User experience showcase"
               width={391}
+              className="mx-auto"
             />
           </div>
         </div>
       </section>
       <section className="flex flex-col pt-6 space-x-0 space-y-6 md:space-x-6 md:space-y-0 md:flex-row-reverse">
-        <div className="flex flex-col space-y-6 basis-2/5 md:pt-[50px]">
+        <div className="flex flex-col space-y-6 basis-2/5 md:pt-[50px] pt-[100px]">
           <h2 className="text-lg font-bold">Frictionless integration</h2>
           <p className="text-secondary">
             The Peaze SDK works alongside your app’s existing integrations like
@@ -99,7 +100,7 @@ export default function Home() {
         </div>
         <div className="relative flex-1">
           <Image src={IntegrationBackground} width={600} alt="background" />
-          <div className="absolute md:top-[40px] top-[20px]">
+          <div className="absolute md:top-[40px] top-[20px] md:left-[-20px] w-full md:w-auto">
             <CodeBlock code={codeBlock2} />
             <CodeBlock code={codeBlock1} />
           </div>
@@ -126,7 +127,12 @@ export default function Home() {
             Powered by
           </p>
           <div className="flex flex-wrap items-center space-x-2">
-            <Image src={LogoRatio} alt="Ratio" width={157} />
+            <Image
+              src={LogoRatio}
+              alt="Ratio"
+              width={157}
+              className="ml-[-20px]"
+            />
             <Image src={LogoPlaid} alt="Plaid" width={118} />
           </div>
         </div>
@@ -145,8 +151,13 @@ export default function Home() {
           <p className="md:mt-[85px] mt-8 mb-3 text-primary font-semibold md:text-base text-[15px]">
             Powered by
           </p>
-          <div className="flex flex-wrap items-center space-x-2">
-            <Image src={LogoWormhole} alt="Wormholde" width={187} />
+          <div className="flex flex-wrap items-center space-x-4">
+            <Image
+              src={LogoWormhole}
+              alt="Wormholde"
+              width={187}
+              className="ml-[-11px]"
+            />
             <Image src={Logo1inch} alt="1inch" width={149} />
             <Image src={Logo0x} alt="0x" width={91} />
           </div>
