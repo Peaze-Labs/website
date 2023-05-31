@@ -11,6 +11,7 @@ import Logo1inch from "../assets/1inch.svg";
 import Logo0x from "../assets/0x.png";
 import { Header } from "@/components/Header";
 import { CodeBlock } from "@/components/CodeBlock";
+import Head from "next/head";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -31,6 +32,10 @@ export default function Home() {
     <main
       className={`flex flex-col items-center justify-between md:py-20 p-8 max-w-screen-xl mx-auto ${manrope.className} text-xs md:text-base`}
     >
+      <Head>
+        <title>Peaze</title>
+        <meta property="og:title" content="Peaze" key="title" />
+      </Head>
       <Header />
       <section className="w-full md:mt-[118px] mt-[52px]">
         <div className="flex flex-col md:w-1/2 space-y-[40px]">
