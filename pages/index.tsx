@@ -37,7 +37,7 @@ export default function Home() {
         <meta property="og:title" content="Peaze" key="title" />
         <meta
           property="og:description"
-          content="Peaze - Web3 Transactions Simplified"
+          content="Web3 Transactions Simplified"
         />
       </Head>
       <Header />
