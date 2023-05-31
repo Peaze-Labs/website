@@ -35,6 +35,10 @@ export default function Home() {
       <Head>
         <title>Peaze</title>
         <meta property="og:title" content="Peaze" key="title" />
+        <meta
+          property="og:description"
+          content="Peaze - Web3 Transactions Simplified"
+        />
       </Head>
       <Header />
       <section className="w-full md:mt-[118px] mt-[52px]">
