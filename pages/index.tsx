@@ -66,7 +66,9 @@ export default function Home() {
       <section className="flex md:flex-row flex-col md:pt-[150px] pt-[50px] md:space-x-6 md:space-y-0 space-x-0 space-y-6">
         <div className="flex flex-col flex-1 space-y-6">
           <h3 className="font-semibold text-muted">Why Peaze?</h3>
-          <h2 className="text-lg font-bold">Seamless user experience</h2>
+          <h2 className="text-base font-bold md:text-lg">
+            Seamless user experience
+          </h2>
           <p className="text-secondary">
             Our simple front-end module streamlines your transaction experience
             to get more users across the finish line.
@@ -87,9 +89,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="flex flex-col pt-6 space-x-0 space-y-6 md:space-x-6 md:space-y-0 md:flex-row-reverse">
-        <div className="flex flex-col space-y-6 basis-2/5 md:pt-[50px] pt-[100px]">
-          <h2 className="text-lg font-bold">Frictionless integration</h2>
+      <section className="flex flex-col pt-20 space-x-0 space-y-6 md:space-x-6 md:space-y-0 md:flex-row-reverse">
+        <div className="flex flex-col space-y-6 basis-2/5 pt-[90px]">
+          <h2 className="text-base font-bold md:text-lg">
+            Frictionless integration
+          </h2>
           <p className="text-secondary">
             The Peaze SDK works alongside your app’s existing integrations like
             wagmi, RainbowKit, and Dynamic with just 3 lines of code.
@@ -100,15 +104,17 @@ export default function Home() {
         </div>
         <div className="relative flex-1">
           <Image src={IntegrationBackground} width={600} alt="background" />
-          <div className="absolute md:top-[40px] top-[20px] md:left-[-20px] w-full md:w-auto">
+          <div className="absolute md:top-[78px] top-[0px] md:left-[-20px] w-full max-w-[600px]">
             <CodeBlock code={codeBlock2} />
             <CodeBlock code={codeBlock1} />
           </div>
         </div>
       </section>
 
-      <div className="w-full mt-6">
-        <h3 className="font-semibold text-left">What Peaze enables</h3>
+      <div className="w-full pt-8 md:pt-2">
+        <h3 className="mt-8 font-semibold text-left md:mt-2">
+          What Peaze enables
+        </h3>
       </div>
       <section className="flex flex-col space-x-0 space-y-6 md:space-x-6 md:space-y-0 md:flex-row pt-9">
         <div className="md:px-9 px-6 md:pt-[56px] md:pb-[80px] pt-[20px] pb-[50px] rounded-xl feature-box text-white1">

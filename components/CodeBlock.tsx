@@ -1,9 +1,12 @@
 import React from "react";
+import { Roboto } from "next/font/google";
 import { Highlight, themes } from "prism-react-renderer";
 
 interface Props {
   code: string;
 }
+
+const roboto = Roboto({ subsets: ["latin"], weight: "400" });
 
 export function CodeBlock({ code }: Props) {
   return (
@@ -12,7 +15,7 @@ export function CodeBlock({ code }: Props) {
         {({ className, style, tokens, getLineProps, getTokenProps }) => (
           <pre
             style={{ ...style, background: "transparent" }}
-            className="md:text-sm text-[10px]"
+            className={`md:text-sm text-[10px] ${roboto.className}`}
           >
             {tokens.map((line, i) => (
               <div key={i} {...getLineProps({ line })}>
