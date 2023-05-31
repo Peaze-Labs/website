@@ -39,10 +39,20 @@ export function Footer() {
             <div>
               <p className="font-medium">Resources</p>
               <nav className="flex flex-col mt-4 space-y-2 text-secondary">
-                <a className="hover:opacity-75" href="#">
+                <a
+                  className="hover:opacity-75"
+                  target="_blank"
+                  href="https://github.com/orgs/Peaze-Labs"
+                  rel="noreferrer noopener"
+                >
                   GitHub
                 </a>
-                <a className="hover:opacity-75" href="#">
+                <a
+                  className="hover:opacity-75"
+                  target="_blank"
+                  href="https://docs.peaze.com/"
+                  rel="noreferrer noopener"
+                >
                   Documentation
                 </a>
                 <a className="hover:opacity-75" href="#">
@@ -53,16 +63,31 @@ export function Footer() {
             <div>
               <p className="font-medium">Social</p>
               <nav className="flex flex-col mt-4 space-y-2 text-secondary">
-                <a className="hover:opacity-75" href="#">
+                <a
+                  className="hover:opacity-75"
+                  target="_blank"
+                  href="https://twitter.com/Peaze"
+                  rel="noreferrer noopener"
+                >
                   Twitter
                 </a>
                 <a className="hover:opacity-75" href="#">
                   Discord
                 </a>
-                <a className="hover:opacity-75" href="#">
+                <a
+                  className="hover:opacity-75"
+                  target="_blank"
+                  href="https://medium.com/@Peaze"
+                  rel="noreferrer noopener"
+                >
                   Medium
                 </a>
-                <a className="hover:opacity-75" href="#">
+                <a
+                  className="hover:opacity-75"
+                  target="_blank"
+                  href="https://www.linkedin.com/company/peaze-labs"
+                  rel="noreferrer noopener"
+                >
                   Linkedin
                 </a>
               </nav>

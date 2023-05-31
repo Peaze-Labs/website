@@ -14,7 +14,7 @@ export function Header() {
         <a
           href="https://docs.peaze.com"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
           className="mr-6 hover:text-accent"
         >
           Docs

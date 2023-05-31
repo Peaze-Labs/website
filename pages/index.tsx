@@ -138,13 +138,25 @@ export default function Home() {
             Powered by
           </p>
           <div className="flex flex-wrap items-center space-x-2">
-            <Image
-              src={LogoRatio}
-              alt="Ratio"
-              width={157}
-              className="ml-[-20px]"
-            />
-            <Image src={LogoPlaid} alt="Plaid" width={118} />
+            <a
+              href="https://www.ratio.me"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <Image
+                src={LogoRatio}
+                alt="Ratio"
+                width={157}
+                className="ml-[-20px]"
+              />
+            </a>
+            <a
+              href="https://www.plaid.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <Image src={LogoPlaid} alt="Plaid" width={118} />
+            </a>
           </div>
         </div>
         <div className="md:px-9 px-6 md:pt-[56px] md:pb-[80px] pt-[20px] pb-[50px] rounded-xl feature-box text-white1">
@@ -163,14 +175,28 @@ export default function Home() {
             Powered by
           </p>
           <div className="flex flex-wrap items-center space-x-4">
-            <Image
-              src={LogoWormhole}
-              alt="Wormholde"
-              width={187}
-              className="ml-[-11px]"
-            />
-            <Image src={Logo1inch} alt="1inch" width={149} />
-            <Image src={Logo0x} alt="0x" width={91} />
+            <a
+              href="https://wormhole.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <Image
+                src={LogoWormhole}
+                alt="Wormholde"
+                width={187}
+                className="ml-[-11px]"
+              />
+            </a>
+            <a
+              href=" https://1inch.io/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <Image src={Logo1inch} alt="1inch" width={149} />
+            </a>
+            <a href="https://0x.org/" target="_blank" rel="noreferrer noopener">
+              <Image src={Logo0x} alt="0x" width={91} />
+            </a>
           </div>
         </div>
       </section>
