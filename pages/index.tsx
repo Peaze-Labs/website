@@ -57,13 +57,13 @@ export default function Home() {
           </p>
           <div className="flex flex-row space-x-4">
             <a
-              href="#"
+              href="https://docs.peaze.com/getting-started/introduction"
               className="md:px-8 md:py-4 px-[26px] py-[10px] text-white rounded-lg bg-accent hover:bg-raised"
             >
               Get started
             </a>
             <a
-              href="#"
+              href="https://docs.peaze.com/getting-started/introduction"
               className="md:px-8 md:py-4 px-[26px] py-[10px] bg-transparent border rounded-lg border-primary hover:text-accent hover:border-accent"
             >
               Learn more
@@ -82,7 +82,7 @@ export default function Home() {
             Our simple front-end module streamlines your transaction experience
             to get more users across the finish line.
           </p>
-          <a className="font-semibold hover:text-accent" href="#">
+          <a className="font-semibold hover:text-accent" href="https://docs.peaze.com/getting-started/introduction">
             Learn more &gt;
           </a>
         </div>
@@ -107,7 +107,7 @@ export default function Home() {
             The Peaze SDK works alongside your app’s existing integrations like
             wagmi, RainbowKit, and Dynamic with just 3 lines of code.
           </p>
-          <a className="font-semibold hover:text-accent" href="#">
+          <a className="font-semibold hover:text-accent" href="https://docs.peaze.com/getting-started/quickstart">
             Learn more &gt;
           </a>
         </div>
@@ -134,7 +134,7 @@ export default function Home() {
             Automated on-ramping so users can transact without manually buying
             crypto and managing balances.
           </p>
-          <a className="font-semibold hover:text-primary" href="#">
+          <a className="font-semibold hover:text-primary" href="https://docs.peaze.com/flows/fiat-transact">
             Learn more &gt;
           </a>
 
@@ -171,7 +171,7 @@ export default function Home() {
             Automated bridging and swapping allows users to transact on any
             chain with any token in one click.
           </p>
-          <a className="font-semibold hover:text-primary" href="#">
+          <a className="font-semibold hover:text-primary" href="https://docs.peaze.com/flows/crypto-transact">
             Learn more &gt;
           </a>
 
