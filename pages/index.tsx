@@ -87,12 +87,12 @@ export default function Home() {
           </a>
         </div>
         <div className="relative flex-1">
-          <Image src={ExperienceBackground} width={515} alt="background" />
-          <div className="absolute md:top-[56px] top-[20px] md:left-[18%] md:w-auto w-full">
+          <Image src={ExperienceBackground} width={550} alt="background" />
+          <div className="absolute md:top-[65px] top-[20px] md:left-[18%] md:w-auto w-full">
             <Image
               src={UserExperience}
               alt="User experience showcase"
-              width={391}
+              width={350}
               className="mx-auto"
             />
           </div>
